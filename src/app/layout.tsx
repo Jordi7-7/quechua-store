@@ -18,7 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en">
 
-      <body className="w-full h-[100vh]" >
+      <body className="w-full h-[100vh] bg-gray-800" >
         <div className="grid grid-cols-[200px_auto] h-[100vh]">
 
       <Navbar />

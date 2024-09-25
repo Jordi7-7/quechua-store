@@ -1,7 +1,7 @@
 
 'use server'
 import { createClient } from "@/utils/supabase/server";
-import { SignOutButtonClient } from "./sign-out-button-client";
+import { SignOutButtonClient } from "../client/sign-out-button-client";
 
 
 export async function SignOutButtonServer() {

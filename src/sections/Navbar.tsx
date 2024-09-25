@@ -1,6 +1,8 @@
 
 import Logo from "../components/logo-kwaski";
-import { SignOutButtonServer } from "../components/sign-out-button-server";
+import { SignOutButtonServer } from "../components/server/sign-out-button-server";
+import Link from 'next/link';
+
 
 const Navbar: React.FC = () => {
 
@@ -11,8 +13,12 @@ const Navbar: React.FC = () => {
             </div>
             <div className="flex flex-col justify-between mx-auto align-middle">
                 <ul>
-                    <li>Menu</li>
-                    <li>Productos</li>
+                <li>
+                <Link href="/">Menu</Link>
+            </li>
+            <li>
+                <Link href="/productos">Productos</Link>
+            </li>
                 </ul>
             </div>
 
